@@ -14,6 +14,11 @@ address {
   vertical-align: baseline;
 }
 
+.link {
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+
 .header {
   min-width: 1340px;
   height: 110px;
@@ -41,11 +46,6 @@ address {
   display: flex;
   gap: 32px;
   list-style: circle;
-}
-
-.header__link {
-  text-decoration: none;
-  border-bottom: 1px solid #000;
 }
 
 .header__link_active {
@@ -290,7 +290,6 @@ address {
 }
 
 .about__logo {
-  /* margin-top: -5px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -310,10 +309,6 @@ address {
   width: 148px;
   height: 114px;
 
-}
-
-.about__description {
-  margin-top: 50px;
 }
 
 .about__title {
@@ -371,11 +366,6 @@ address {
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
-}
-
-.footer__link {
-  text-decoration: none;
-  border-bottom: 1px solid #000;
 }
 
 .footer__link-active {
